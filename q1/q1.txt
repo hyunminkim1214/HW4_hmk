@@ -1,0 +1,18 @@
+git add A.txt
+git commit -m"A"
+git checkout -b develop
+git add B.txt
+git commit -m"B"
+git checkout master
+git add C.txt
+git commit -m"C"
+git merge
+git add D.txt
+git commit -m"D"
+git checkout develop
+git add E.txt
+git commit -m"E"
+git checkout master
+git merge
+git add F.txt
+git commit -m"F"
